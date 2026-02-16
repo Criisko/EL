@@ -1,4 +1,7 @@
 {
-  "version": "1.1.0",
-  "download": "https://flightsim.to/file/104570/environment-launcher"
+  "version": "1.1.1",
+  "download": "https://flightsim.to/file/104570/environment-launcher",
+  "changelog": [
+   "HOTFIX: Fixed issue with apps opening folders instead of executables"
+  ]
 }
