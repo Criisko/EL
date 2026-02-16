@@ -1,7 +1,13 @@
 {
-  "version": "1.1.1",
+  "version": "1.1.2",
   "download": "https://flightsim.to/file/104570/environment-launcher",
   "changelog": [
-    "FIXED: Resolved an issue where launching some installed applications would open the application folder instead of the app itself"
+    "Efficiency Tracker: Added a Clicks Saved statistic in the App Info section. See exactly how much effort EL is saving you every day!",
+    "Advanced Sorting: You can now organize your profiles alphabetically or by creation/last edit date. Keep your hangar organized!",
+    "Improved Launch Logic (Working Directory): Fixed a critical issue where some apps failed to start because they couldn't locate their internal files. EL now correctly sets the execution context.",
+    "UI Integrity: Enforced a minimum window size to prevent interface glitches during resizing.",
+    "Tooltip Redesign: Fixed the main app selection tooltip (bubble) overflow issue. It now displays correctly regardless of window position.",
+    "Localization: Added missing translations for Wait and SEC across all supported languages.",
+    "Experimental Icon Fix: Addressed a bug where apps sometimes showed the shortcut icon instead of their native icon. Note: This is an experimental fix — please let me know if it works for you!",
   ]
 }
