@@ -1,15 +1,9 @@
 {
-  "version": "1.2.0",
+  "version": "1.2.1",
   "download": "https://flightsim.to/file/104570/environment-launcher",
   "changelog": [
-    "UI Overhaul: Completely redesigned the interface to significantly improve readability and workflow. Enjoy a cleaner, more intuitive experience!",
-    "Visual Enhancements: Polished various UI elements and animations for a more modern and fluid look.",
-    "URL Integration: You can now add website links directly to your profiles. EL will automatically open them in your default browser upon launch — perfect for charts, flight plans, or live maps!",
-    "Resource Recovery (Auto-Close): Added a feature to automatically close specific background apps when a profile starts. You can also enable 'Auto-Restart' to restore those apps once your session ends.",
-    "Process Priority Management: You can now set CPU priority levels independently for every app in a profile. Optimize your processor's focus for better performance!",
-    "Dynamic Shortcut System: Rebuilt the shortcut engine from scratch. Desktop shortcuts now update instantly when a profile is edited and are automatically deleted when a profile is removed.",
-    "App Toggling: Added the ability to temporarily disable individual applications within a profile without having to delete them. Perfect for testing different setups!",
-    "Smart Update Notifications: EL will now notify you of available updates even when launching profiles directly from desktop shortcuts. Stay current without ever opening the main app!",
-    "General Stability: Implemented a large number of under-the-hood fixes and performance optimizations for a smoother overall experience."
+    "HOTFIX: Process Extraction Algorithm — Added a specialized algorithm to automatically identify game process names. This significantly improves stability when launching apps via external launchers without a manually defined process name.",
+    "HOTFIX: Profile Creation — Fixed an issue where the sequence duration timer would fail to reset when creating a new profile immediately after viewing an existing one.",
+    "HOTFIX: Tooltip Update — Refined the 'Monitor Process' hint in application settings to provide clearer guidance and information."
   ]
 }
