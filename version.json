@@ -1,15 +1,13 @@
 {
-  "version": "1.2.2",
+  "version": "1.2.3",
   "download": "https://flightsim.to/file/104570/environment-launcher",
   "changelog": [
-    "UI OVERHAUL (Part 2): Entirely redesigned Welcome and About screens with modern visual refinements and smart tooltips.",
-    "PER-APP AUTO-CLOSE: Added individual toggles to choose which apps should close automatically after your flight.",
-    "AUTO-CLOSE COUNTDOWN: New post-flight window with a countdown timer, manual cancel option, and visibility settings.",
-    "MAIN PROCESS MONITORING: Added a safety warning with troubleshooting tips if the game process closes unexpectedly early.",
-    "ADVANCED PROFILE IMPORT: New option to either Merge or Replace existing profiles when importing data.",
-    "SMART .EXE DETECTION: Fixed a bug where auto-detect would pick uninstallers or helpers instead of the main application file.",
-    "IMPROVED ALGORITHMS: Enhanced detection for MS Store, Xbox app, and applications using external secondary launchers.",
-    "SHORTCUT UPDATE PREVIEW: You can now preview the full changelog directly from the update window when launching via shortcuts.",
-    "STABILITY: Refined button activation logic and fixed several minor graphical and functional bugs."
+    "UI SCALING: Added manual interface resizing in settings for improved clarity across all monitor resolutions.",
+    "SHORTCUT SUPPORT: Introduced .lnk file support with automatic parameter import for easier profile setup.",
+    "DRAG & DROP REORDERING: Added the ability to change application order by dragging items on the list.",
+    "PATH RECOVERY: Improved application path verification with manual repair options for portable software.",
+    "DISPLAY BUGFIX: Resolved rendering issues occurring on specific screen resolution configurations.",
+    "PARAMETER BUGFIX: Fixed an issue where launch parameters were not being saved in profile settings.",
+    "GENERAL IMPROVEMENTS: Various visual refinements and a multitude of other minor stability and performance fixes."
   ]
 }
