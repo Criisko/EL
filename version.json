@@ -1,13 +1,44 @@
 {
-  "version": "1.2.3",
-  "download": "https://flightsim.to/file/104570/environment-launcher",
+  "version": "1.2.4",
+  "download": "https://flightsim.to/addon/104570/environment-launcher",
   "changelog": [
-    "UI SCALING: Added manual interface resizing in settings for improved clarity across all monitor resolutions.",
-    "SHORTCUT SUPPORT: Introduced .lnk file support with automatic parameter import for easier profile setup.",
-    "DRAG & DROP REORDERING: Added the ability to change application order by dragging items on the list.",
-    "PATH RECOVERY: Improved application path verification with manual repair options for portable software.",
-    "DISPLAY BUGFIX: Resolved rendering issues occurring on specific screen resolution configurations.",
-    "PARAMETER BUGFIX: Fixed an issue where launch parameters were not being saved in profile settings.",
-    "GENERAL IMPROVEMENTS: Various visual refinements and a multitude of other minor stability and performance fixes."
-  ]
+    "Added the ability to manually edit application names on the list by clicking the current title.",
+    "Enabled adding applications to the list by dragging and dropping files or shortcuts directly into the application window.",
+    "Cleaned up application titles on the list by removing file extensions for a more polished look.",
+    "Improved drag-and-drop behavior; reordering applications is now restricted to the application section boundaries rather than the entire window height.",
+    "Fixed an issue where names of manually added applications were not displayed correctly.",
+    "Implemented additional preventive measures to further minimize potential issues on non-standard monitor configurations.",
+    "Performed a major code refactor to establish a better foundation for future development."
+  ],
+  "editions": {
+    "free": {
+      "version": "1.2.4",
+      "download": "https://flightsim.to/addon/104570/environment-launcher",
+      "changelog": [
+        "Added the ability to manually edit application names on the list by clicking the current title.",
+        "Enabled adding applications to the list by dragging and dropping files or shortcuts directly into the application window.",
+        "Cleaned up application titles on the list by removing file extensions for a more polished look.",
+        "Improved drag-and-drop behavior; reordering applications is now restricted to the application section boundaries rather than the entire window height.",
+        "Fixed an issue where names of manually added applications were not displayed correctly.",
+        "Implemented additional preventive measures to further minimize potential issues on non-standard monitor configurations.",
+        "Performed a major code refactor to establish a better foundation for future development."
+      ]
+    },
+    "pro": {
+      "version": "1.2.4",
+      "download": "",
+      "changelog": []
+    }
+  },
+  "releases": {
+    "1.2.4": [
+      "Added the ability to manually edit application names on the list by clicking the current title.",
+      "Enabled adding applications to the list by dragging and dropping files or shortcuts directly into the application window.",
+      "Cleaned up application titles on the list by removing file extensions for a more polished look.",
+      "Improved drag-and-drop behavior; reordering applications is now restricted to the application section boundaries rather than the entire window height.",
+      "Fixed an issue where names of manually added applications were not displayed correctly.",
+      "Implemented additional preventive measures to further minimize potential issues on non-standard monitor configurations.",
+      "Performed a major code refactor to establish a better foundation for future development."
+    ]
+  }
 }
