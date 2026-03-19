@@ -1,44 +1,47 @@
 {
-  "version": "1.2.4",
+  "version": "1.2.5",
   "download": "https://flightsim.to/addon/104570/environment-launcher",
   "changelog": [
-    "Added the ability to manually edit application names on the list by clicking the current title.",
-    "Enabled adding applications to the list by dragging and dropping files or shortcuts directly into the application window.",
-    "Cleaned up application titles on the list by removing file extensions for a more polished look.",
-    "Improved drag-and-drop behavior; reordering applications is now restricted to the application section boundaries rather than the entire window height.",
-    "Fixed an issue where names of manually added applications were not displayed correctly.",
-    "Implemented additional preventive measures to further minimize potential issues on non-standard monitor configurations.",
-    "Performed a major code refactor to establish a better foundation for future development."
+    "Expanded Platform Support: You can now easily add and manage games from Steam, Epic Games, and GOG.",
+    "Unified App Management: We’ve simplified the interface. The separate MS Store button is gone – now all your apps, regardless of their source, are neatly organized under the \"Installed\" tab.",
+    "Smart Monitoring: The launch countdown is now even more intuitive. If you manually close all applications in a profile before the timer finishes, the countdown will automatically cancel itself.",
+    "New Visual Identity: Enjoy a fresh look with our brand-new logo and application icon.",
+    "UI Scaling Overhaul: We’ve completely rebuilt the window scaling system. This fixes the issue where the interface appeared \"cut off\" on certain screen resolutions or DPI settings.",
+    "Fixed: Temporarily disabled apps in a profile now correctly display as \"grayed out\" after the profile is launched.",
+    "Performance: Various under-the-top improvements for a smoother and faster experience.",
+    "Stability: General code cleanup and minor bug fixes reported by the community."
   ],
   "editions": {
     "free": {
-      "version": "1.2.4",
+      "version": "1.2.5",
       "download": "https://flightsim.to/addon/104570/environment-launcher",
       "changelog": [
-        "Added the ability to manually edit application names on the list by clicking the current title.",
-        "Enabled adding applications to the list by dragging and dropping files or shortcuts directly into the application window.",
-        "Cleaned up application titles on the list by removing file extensions for a more polished look.",
-        "Improved drag-and-drop behavior; reordering applications is now restricted to the application section boundaries rather than the entire window height.",
-        "Fixed an issue where names of manually added applications were not displayed correctly.",
-        "Implemented additional preventive measures to further minimize potential issues on non-standard monitor configurations.",
-        "Performed a major code refactor to establish a better foundation for future development."
+        "Expanded Platform Support: You can now easily add and manage games from Steam, Epic Games, and GOG.",
+        "Unified App Management: We’ve simplified the interface. The separate MS Store button is gone – now all your apps, regardless of their source, are neatly organized under the \"Installed\" tab.",
+        "Smart Monitoring: The launch countdown is now even more intuitive. If you manually close all applications in a profile before the timer finishes, the countdown will automatically cancel itself.",
+        "New Visual Identity: Enjoy a fresh look with our brand-new logo and application icon.",
+        "UI Scaling Overhaul: We’ve completely rebuilt the window scaling system. This fixes the issue where the interface appeared \"cut off\" on certain screen resolutions or DPI settings.",
+        "Fixed: Temporarily disabled apps in a profile now correctly display as \"grayed out\" after the profile is launched.",
+        "Performance: Various under-the-top improvements for a smoother and faster experience.",
+        "Stability: General code cleanup and minor bug fixes reported by the community."
       ]
     },
     "pro": {
-      "version": "1.2.4",
+      "version": "1.2.5",
       "download": "",
       "changelog": []
     }
   },
   "releases": {
-    "1.2.4": [
-      "Added the ability to manually edit application names on the list by clicking the current title.",
-      "Enabled adding applications to the list by dragging and dropping files or shortcuts directly into the application window.",
-      "Cleaned up application titles on the list by removing file extensions for a more polished look.",
-      "Improved drag-and-drop behavior; reordering applications is now restricted to the application section boundaries rather than the entire window height.",
-      "Fixed an issue where names of manually added applications were not displayed correctly.",
-      "Implemented additional preventive measures to further minimize potential issues on non-standard monitor configurations.",
-      "Performed a major code refactor to establish a better foundation for future development."
+    "1.2.5": [
+      "Expanded Platform Support: You can now easily add and manage games from Steam, Epic Games, and GOG.",
+      "Unified App Management: We’ve simplified the interface. The separate MS Store button is gone – now all your apps, regardless of their source, are neatly organized under the \"Installed\" tab.",
+      "Smart Monitoring: The launch countdown is now even more intuitive. If you manually close all applications in a profile before the timer finishes, the countdown will automatically cancel itself.",
+      "New Visual Identity: Enjoy a fresh look with our brand-new logo and application icon.",
+      "UI Scaling Overhaul: We’ve completely rebuilt the window scaling system. This fixes the issue where the interface appeared \"cut off\" on certain screen resolutions or DPI settings.",
+      "Fixed: Temporarily disabled apps in a profile now correctly display as \"grayed out\" after the profile is launched.",
+      "Performance: Various under-the-top improvements for a smoother and faster experience.",
+      "Stability: General code cleanup and minor bug fixes reported by the community."
     ]
   }
 }
