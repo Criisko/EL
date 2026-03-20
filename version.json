@@ -3,54 +3,12 @@
   "download": "https://flightsim.to/addon/104570/environment-launcher",
   "changelog": [
     "Expanded Platform Support: You can now easily add and manage games from Steam, Epic Games, and GOG.",
-    "Unified App Management: We've simplified the interface. The separate MS Store button is gone – now all your apps, regardless of their source, are neatly organized under the 'Installed' tab.",
-    "Smart Monitoring: The launch countdown is now even more intuitive. If you manually close all applications in a profile before the timer finishes, the countdown will automatically cancel itself.",
-    "New Visual Identity: Enjoy a fresh look with our brand-new logo and application icon.",
-    "UI Scaling Overhaul: We've completely rebuilt the window scaling system. This fixes the issue where the interface appeared 'cut off' on certain screen resolutions or DPI settings.",
-    "Fixed: Temporarily disabled apps in a profile now correctly display as 'grayed out' after the profile is launched.",
-    "Performance: Various under-the-top improvements for a smoother and faster experience.",
-    "Stability: General code cleanup and minor bug fixes reported by the community."
-  ],
-  "editions": {
-    "free": {
-      "version": "1.2.5",
-      "download": "https://flightsim.to/addon/104570/environment-launcher",
-      "changelog": [
-        "Expanded Platform Support: You can now easily add and manage games from Steam, Epic Games, and GOG.",
-        "Unified App Management: We've simplified the interface. The separate MS Store button is gone – now all your apps, regardless of their source, are neatly organized under the 'Installed' tab.",
-        "Smart Monitoring: The launch countdown is now even more intuitive. If you manually close all applications in a profile before the timer finishes, the countdown will automatically cancel itself.",
-        "New Visual Identity: Enjoy a fresh look with our brand-new logo and application icon.",
-        "UI Scaling Overhaul: We've completely rebuilt the window scaling system. This fixes the issue where the interface appeared 'cut off' on certain screen resolutions or DPI settings.",
-        "Fixed: Temporarily disabled apps in a profile now correctly display as 'grayed out' after the profile is launched.",
-        "Performance: Various under-the-top improvements for a smoother and faster experience.",
-        "Stability: General code cleanup and minor bug fixes reported by the community."
-      ]
-    },
-    "pro": {
-      "version": "1.2.5",
-      "download": "",
-      "changelog": [
-        "Expanded Platform Support: You can now easily add and manage games from Steam, Epic Games, and GOG.",
-        "Unified App Management: We've simplified the interface. The separate MS Store button is gone – now all your apps, regardless of their source, are neatly organized under the 'Installed' tab.",
-        "Smart Monitoring: The launch countdown is now even more intuitive. If you manually close all applications in a profile before the timer finishes, the countdown will automatically cancel itself.",
-        "New Visual Identity: Enjoy a fresh look with our brand-new logo and application icon.",
-        "UI Scaling Overhaul: We've completely rebuilt the window scaling system. This fixes the issue where the interface appeared 'cut off' on certain screen resolutions or DPI settings.",
-        "Fixed: Temporarily disabled apps in a profile now correctly display as 'grayed out' after the profile is launched.",
-        "Performance: Various under-the-top improvements for a smoother and faster experience.",
-        "Stability: General code cleanup and minor bug fixes reported by the community."
-      ]
-    }
-  },
-  "releases": {
-    "1.2.5": [
-      "Expanded Platform Support: You can now easily add and manage games from Steam, Epic Games, and GOG.",
-      "Unified App Management: We've simplified the interface. The separate MS Store button is gone – now all your apps, regardless of their source, are neatly organized under the 'Installed' tab.",
-      "Smart Monitoring: The launch countdown is now even more intuitive. If you manually close all applications in a profile before the timer finishes, the countdown will automatically cancel itself.",
-      "New Visual Identity: Enjoy a fresh look with our brand-new logo and application icon.",
-      "UI Scaling Overhaul: We've completely rebuilt the window scaling system. This fixes the issue where the interface appeared 'cut off' on certain screen resolutions or DPI settings.",
-      "Fixed: Temporarily disabled apps in a profile now correctly display as 'grayed out' after the profile is launched.",
-      "Performance: Various under-the-top improvements for a smoother and faster experience.",
-      "Stability: General code cleanup and minor bug fixes reported by the community."
-    ]
-  }
+    "Unified App Management: Simplified interface with all apps under the Installed tab.",
+    "Smart Monitoring: Countdown auto-cancels if you close apps manually.",
+    "New Visual Identity: Fresh logo and application icon.",
+    "UI Scaling Overhaul: Fixed interface appearing cut off on certain screen resolutions.",
+    "Fixed: Temporarily disabled apps now correctly display as grayed out.",
+    "Performance: Various improvements for a smoother experience.",
+    "Stability: General code cleanup and bug fixes."
+  ]
 }
