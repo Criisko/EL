@@ -1,6 +1,6 @@
 {
   "version": "1.2.6",
-  "download": "",
+  "download": "https://flightsim.to/addon/104570/environment-launcher",
   "changelog": [
     "Steam Integration: Fixed an issue where shortcuts for Steam games were not being handled correctly.",
     "Process Monitoring: Refined the main application monitoring logic. This adjustment aims to improve reliability in detecting the simulator's status in certain scenarios.",
@@ -13,7 +13,7 @@
   "editions": {
     "free": {
       "version": "1.2.6",
-      "download": ""
+      "download": "https://flightsim.to/addon/104570/environment-launcher"
     },
     "pro": {
       "version": "1.2.6",
