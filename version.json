@@ -2,17 +2,17 @@
   "version": "1.2.7",
   "download": "",
   "changelog": [
-    "Smart Instance Detection – The launcher now checks if an application is already running before launching a profile. If a process is detected, the launcher skips it to prevent opening duplicate instances.",
-    "Customizable Notifications – Added a toggle in the settings to enable or disable the info window that lists programs skipped during the launch process.",
-    "Profile Name Validation – The system now alerts you if a profile name contains illegal characters. This prevents issues where desktop shortcuts failed to be created even when the program reported success.",
-    "Steam Launch Options – Restored support for additional launch parameters for applications and games from the Steam store.",
-    "Steam Monitoring Fix – Resolved an issue that prevented Steam games from being selected as the 'Main Application' for process monitoring.",
-    "Fixed launching Microsoft Store / Xbox games with Administrator privileges.",
-    "Improved non-admin execution: applications with the 'Run as Administrator' option unchecked will now correctly launch without elevated rights.",
-    "Robust Process Monitoring – Improved the monitoring logic for cases where the UAC (User Account Control) prompt for the main application is rejected. The monitoring process will no longer exit prematurely if the game fails to start due to UAC.",
-    "UI Responsiveness – Fixed a minor bug where the Save, Shortcut, and Launch buttons occasionally failed to register the first click.",
-    "Real-time Icon Refresh – Custom profile icons now update instantly after selection. There is no longer a need to restart the application to see your changes.",
-    "Optimized Settings Layout – Transitioned to a two-column settings menu to better utilize screen real estate and improve navigation."
+    "NEW: Smart Instance Detection – The launcher now checks if an application is already running before launching a profile. If a process is detected, the launcher skips it to prevent opening duplicate instances.",
+    "NEW: Customizable Notifications – Added a toggle in the settings to enable or disable the info window that lists programs skipped during the launch process.",
+    "NEW: Profile Name Validation – The system now alerts you if a profile name contains illegal characters. This prevents issues where desktop shortcuts failed to be created even when the program reported success.",
+    "CHANGE: Steam Launch Options – Restored support for additional launch parameters for applications and games from the Steam store.",
+    "CHANGE: Optimized Settings Layout – Transitioned to a two-column settings menu to better utilize screen real estate and improve navigation.",
+    "FIX: Steam Monitoring Fix – Resolved an issue that prevented Steam games from being selected as the 'Main Application' for process monitoring.",
+    "FIX: Fixed launching Microsoft Store / Xbox games with Administrator privileges.",
+    "FIX: Improved non-admin execution: applications with the 'Run as Administrator' option unchecked will now correctly launch without elevated rights.",
+    "FIX: Robust Process Monitoring – Improved the monitoring logic for cases where the UAC (User Account Control) prompt for the main application is rejected. The monitoring process will no longer exit prematurely if the game fails to start due to UAC.",
+    "FIX: UI Responsiveness – Fixed a minor bug where the Save, Shortcut, and Launch buttons occasionally failed to register the first click.",
+    "FIX: Real-time Icon Refresh – Custom profile icons now update instantly after selection. There is no longer a need to restart the application to see your changes."
   ],
   "editions": {
     "free": {
@@ -26,17 +26,17 @@
   },
   "releases": {
     "1.2.7": [
-      "Smart Instance Detection – The launcher now checks if an application is already running before launching a profile. If a process is detected, the launcher skips it to prevent opening duplicate instances.",
-      "Customizable Notifications – Added a toggle in the settings to enable or disable the info window that lists programs skipped during the launch process.",
-      "Profile Name Validation – The system now alerts you if a profile name contains illegal characters. This prevents issues where desktop shortcuts failed to be created even when the program reported success.",
-      "Steam Launch Options – Restored support for additional launch parameters for applications and games from the Steam store.",
-      "Steam Monitoring Fix – Resolved an issue that prevented Steam games from being selected as the 'Main Application' for process monitoring.",
-      "Fixed launching Microsoft Store / Xbox games with Administrator privileges.",
-      "Improved non-admin execution: applications with the 'Run as Administrator' option unchecked will now correctly launch without elevated rights.",
-      "Robust Process Monitoring – Improved the monitoring logic for cases where the UAC (User Account Control) prompt for the main application is rejected. The monitoring process will no longer exit prematurely if the game fails to start due to UAC.",
-      "UI Responsiveness – Fixed a minor bug where the Save, Shortcut, and Launch buttons occasionally failed to register the first click.",
-      "Real-time Icon Refresh – Custom profile icons now update instantly after selection. There is no longer a need to restart the application to see your changes.",
-      "Optimized Settings Layout – Transitioned to a two-column settings menu to better utilize screen real estate and improve navigation."
+      "NEW: Smart Instance Detection – The launcher now checks if an application is already running before launching a profile. If a process is detected, the launcher skips it to prevent opening duplicate instances.",
+      "NEW: Customizable Notifications – Added a toggle in the settings to enable or disable the info window that lists programs skipped during the launch process.",
+      "NEW: Profile Name Validation – The system now alerts you if a profile name contains illegal characters. This prevents issues where desktop shortcuts failed to be created even when the program reported success.",
+      "CHANGE: Steam Launch Options – Restored support for additional launch parameters for applications and games from the Steam store.",
+      "CHANGE: Optimized Settings Layout – Transitioned to a two-column settings menu to better utilize screen real estate and improve navigation.",
+      "FIX: Steam Monitoring Fix – Resolved an issue that prevented Steam games from being selected as the 'Main Application' for process monitoring.",
+      "FIX: Fixed launching Microsoft Store / Xbox games with Administrator privileges.",
+      "FIX: Improved non-admin execution: applications with the 'Run as Administrator' option unchecked will now correctly launch without elevated rights.",
+      "FIX: Robust Process Monitoring – Improved the monitoring logic for cases where the UAC (User Account Control) prompt for the main application is rejected. The monitoring process will no longer exit prematurely if the game fails to start due to UAC.",
+      "FIX: UI Responsiveness – Fixed a minor bug where the Save, Shortcut, and Launch buttons occasionally failed to register the first click.",
+      "FIX: Real-time Icon Refresh – Custom profile icons now update instantly after selection. There is no longer a need to restart the application to see your changes."
     ]
   }
 }
