@@ -1,34 +1,42 @@
 {
-  "version": "1.2.6",
-  "download": "https://flightsim.to/addon/104570/environment-launcher",
+  "version": "1.2.7",
+  "download": "",
   "changelog": [
-    "Steam Integration: Fixed an issue where shortcuts for Steam games were not being handled correctly.",
-    "Process Monitoring: Refined the main application monitoring logic. This adjustment aims to improve reliability in detecting the simulator's status in certain scenarios.",
-    "Update System: Rebuilt the update check mechanism to ensure more reliable detection of new versions.",
-    "Update Notifications: Improved the 'What’s New' button logic. It will now correctly appear in the menu only once immediately after an update has been installed.",
-    "Profile Editor: Renamed 'Launcher Configurator' to 'Profile Editor' to better reflect the purpose of the edit mode.",
-    "List Readability: Applications that are toggled off within a profile now have reduced opacity. This makes it much easier to distinguish at a glance which tools are active in your setup.",
-    "Visual Polish: Implemented various minor cosmetic tweaks and small UI refinements to improve overall consistency."
+    "Smart Instance Detection – The launcher now checks if an application is already running before launching a profile. If a process is detected, the launcher skips it to prevent opening duplicate instances.",
+    "Customizable Notifications – Added a toggle in the settings to enable or disable the info window that lists programs skipped during the launch process.",
+    "Profile Name Validation – The system now alerts you if a profile name contains illegal characters. This prevents issues where desktop shortcuts failed to be created even when the program reported success.",
+    "Steam Launch Options – Restored support for additional launch parameters for applications and games from the Steam store.",
+    "Steam Monitoring Fix – Resolved an issue that prevented Steam games from being selected as the 'Main Application' for process monitoring.",
+    "Fixed launching Microsoft Store / Xbox games with Administrator privileges.",
+    "Improved non-admin execution: applications with the 'Run as Administrator' option unchecked will now correctly launch without elevated rights.",
+    "Robust Process Monitoring – Improved the monitoring logic for cases where the UAC (User Account Control) prompt for the main application is rejected. The monitoring process will no longer exit prematurely if the game fails to start due to UAC.",
+    "UI Responsiveness – Fixed a minor bug where the Save, Shortcut, and Launch buttons occasionally failed to register the first click.",
+    "Real-time Icon Refresh – Custom profile icons now update instantly after selection. There is no longer a need to restart the application to see your changes.",
+    "Optimized Settings Layout – Transitioned to a two-column settings menu to better utilize screen real estate and improve navigation."
   ],
   "editions": {
     "free": {
-      "version": "1.2.6",
-      "download": "https://flightsim.to/addon/104570/environment-launcher"
+      "version": "1.2.7",
+      "download": ""
     },
     "pro": {
-      "version": "1.2.6",
+      "version": "1.2.7",
       "download": ""
     }
   },
   "releases": {
-    "1.2.6": [
-      "Steam Integration: Fixed an issue where shortcuts for Steam games were not being handled correctly.",
-      "Process Monitoring: Refined the main application monitoring logic. This adjustment aims to improve reliability in detecting the simulator's status in certain scenarios.",
-      "Update System: Rebuilt the update check mechanism to ensure more reliable detection of new versions.",
-      "Update Notifications: Improved the 'What’s New' button logic. It will now correctly appear in the menu only once immediately after an update has been installed.",
-      "Profile Editor: Renamed 'Launcher Configurator' to 'Profile Editor' to better reflect the purpose of the edit mode.",
-      "List Readability: Applications that are toggled off within a profile now have reduced opacity. This makes it much easier to distinguish at a glance which tools are active in your setup.",
-      "Visual Polish: Implemented various minor cosmetic tweaks and small UI refinements to improve overall consistency."
+    "1.2.7": [
+      "Smart Instance Detection – The launcher now checks if an application is already running before launching a profile. If a process is detected, the launcher skips it to prevent opening duplicate instances.",
+      "Customizable Notifications – Added a toggle in the settings to enable or disable the info window that lists programs skipped during the launch process.",
+      "Profile Name Validation – The system now alerts you if a profile name contains illegal characters. This prevents issues where desktop shortcuts failed to be created even when the program reported success.",
+      "Steam Launch Options – Restored support for additional launch parameters for applications and games from the Steam store.",
+      "Steam Monitoring Fix – Resolved an issue that prevented Steam games from being selected as the 'Main Application' for process monitoring.",
+      "Fixed launching Microsoft Store / Xbox games with Administrator privileges.",
+      "Improved non-admin execution: applications with the 'Run as Administrator' option unchecked will now correctly launch without elevated rights.",
+      "Robust Process Monitoring – Improved the monitoring logic for cases where the UAC (User Account Control) prompt for the main application is rejected. The monitoring process will no longer exit prematurely if the game fails to start due to UAC.",
+      "UI Responsiveness – Fixed a minor bug where the Save, Shortcut, and Launch buttons occasionally failed to register the first click.",
+      "Real-time Icon Refresh – Custom profile icons now update instantly after selection. There is no longer a need to restart the application to see your changes.",
+      "Optimized Settings Layout – Transitioned to a two-column settings menu to better utilize screen real estate and improve navigation."
     ]
   }
 }
