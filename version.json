@@ -1,42 +1,36 @@
 {
-  "version": "1.2.7",
+  "version": "1.2.8",
   "download": "",
   "changelog": [
-    "NEW: Smart Instance Detection – The launcher now checks if an application is already running before launching a profile. If a process is detected, the launcher skips it to prevent opening duplicate instances.",
-    "NEW: Customizable Notifications – Added a toggle in the settings to enable or disable the info window that lists programs skipped during the launch process.",
-    "NEW: Profile Name Validation – The system now alerts you if a profile name contains illegal characters. This prevents issues where desktop shortcuts failed to be created even when the program reported success.",
-    "CHANGED: Steam Launch Options – Restored support for additional launch parameters for applications and games from the Steam store.",
-    "CHANGED: Optimized Settings Layout – Transitioned to a two-column settings menu to better utilize screen real estate and improve navigation.",
-    "FIX: Steam Monitoring Fix – Resolved an issue that prevented Steam games from being selected as the 'Main Application' for process monitoring.",
-    "FIX: Fixed launching Microsoft Store / Xbox games with Administrator privileges.",
-    "FIX: Improved non-admin execution: applications with the 'Run as Administrator' option unchecked will now correctly launch without elevated rights.",
-    "FIX: Robust Process Monitoring – Improved the monitoring logic for cases where the UAC (User Account Control) prompt for the main application is rejected. The monitoring process will no longer exit prematurely if the game fails to start due to UAC.",
-    "FIX: UI Responsiveness – Fixed a minor bug where the Save, Shortcut, and Launch buttons occasionally failed to register the first click.",
-    "FIX: Real-time Icon Refresh – Custom profile icons now update instantly after selection. There is no longer a need to restart the application to see your changes."
+    "NEW: Global Process Monitoring Toggle — Added a per-profile master switch to enable or disable the 'Close on Exit' behavior for all companion apps at once. This provides faster control over resource recovery without needing to edit individual application settings.",
+    "NEW: Extended Shortcut Arguments — Desktop shortcuts now support enhanced launch parameters, ensuring even better reliability when triggering profiles through external dashboards or Stream Decks.",
+    "CHANGED: Optimized Path Recovery Algorithm — Refined the intelligent path detection for Microsoft Store and Xbox applications. The system now performs a deeper, faster scan to self-correct profiles if game files are moved or updated by the Windows Store.",
+    "CHANGED: UI Rendering Refinement — Improved the loading speed of the profile list when using high-resolution custom icons (PNG/ICO). Navigating through complex setups is now even snappier.",
+    "CHANGED: Core Efficiency Tuning — Further reduced the application's idle memory footprint. The 'Zero-Impact' promise is now even leaner, leaving more overhead for high-demand simulators.",
+    "CHANGED: Refined Elevation Workflow — Updated the single-UAC prompt logic to prevent focus-loss issues on certain Windows 11 builds, ensuring a seamless 'one-click' experience.",
+    "FIX: Icon Transparency Glitch — Fixed a minor rendering bug that caused artifacts on certain non-standard 256x256 .ICO files.",
+    "FIX: URL String Parsing — Corrected an issue where special characters in complex URLs (e.g., specific Navigraph or SimBrief links) could cause the default browser to fail to launch."
   ],
   "editions": {
     "free": {
-      "version": "1.2.7",
+      "version": "1.2.8",
       "download": ""
     },
     "pro": {
-      "version": "1.2.7",
+      "version": "1.2.8",
       "download": ""
     }
   },
   "releases": {
-    "1.2.7": [
-      "NEW: Smart Instance Detection – The launcher now checks if an application is already running before launching a profile. If a process is detected, the launcher skips it to prevent opening duplicate instances.",
-      "NEW: Customizable Notifications – Added a toggle in the settings to enable or disable the info window that lists programs skipped during the launch process.",
-      "NEW: Profile Name Validation – The system now alerts you if a profile name contains illegal characters. This prevents issues where desktop shortcuts failed to be created even when the program reported success.",
-      "CHANGED: Steam Launch Options – Restored support for additional launch parameters for applications and games from the Steam store.",
-      "CHANGED: Optimized Settings Layout – Transitioned to a two-column settings menu to better utilize screen real estate and improve navigation.",
-      "FIX: Steam Monitoring Fix – Resolved an issue that prevented Steam games from being selected as the 'Main Application' for process monitoring.",
-      "FIX: Fixed launching Microsoft Store / Xbox games with Administrator privileges.",
-      "FIX: Improved non-admin execution: applications with the 'Run as Administrator' option unchecked will now correctly launch without elevated rights.",
-      "FIX: Robust Process Monitoring – Improved the monitoring logic for cases where the UAC (User Account Control) prompt for the main application is rejected. The monitoring process will no longer exit prematurely if the game fails to start due to UAC.",
-      "FIX: UI Responsiveness – Fixed a minor bug where the Save, Shortcut, and Launch buttons occasionally failed to register the first click.",
-      "FIX: Real-time Icon Refresh – Custom profile icons now update instantly after selection. There is no longer a need to restart the application to see your changes."
+    "1.2.8": [
+      "NEW: Global Process Monitoring Toggle — Added a per-profile master switch to enable or disable the 'Close on Exit' behavior for all companion apps at once. This provides faster control over resource recovery without needing to edit individual application settings.",
+      "NEW: Extended Shortcut Arguments — Desktop shortcuts now support enhanced launch parameters, ensuring even better reliability when triggering profiles through external dashboards or Stream Decks.",
+      "CHANGED: Optimized Path Recovery Algorithm — Refined the intelligent path detection for Microsoft Store and Xbox applications. The system now performs a deeper, faster scan to self-correct profiles if game files are moved or updated by the Windows Store.",
+      "CHANGED: UI Rendering Refinement — Improved the loading speed of the profile list when using high-resolution custom icons (PNG/ICO). Navigating through complex setups is now even snappier.",
+      "CHANGED: Core Efficiency Tuning — Further reduced the application's idle memory footprint. The 'Zero-Impact' promise is now even leaner, leaving more overhead for high-demand simulators.",
+      "CHANGED: Refined Elevation Workflow — Updated the single-UAC prompt logic to prevent focus-loss issues on certain Windows 11 builds, ensuring a seamless 'one-click' experience.",
+      "FIX: Icon Transparency Glitch — Fixed a minor rendering bug that caused artifacts on certain non-standard 256x256 .ICO files.",
+      "FIX: URL String Parsing — Corrected an issue where special characters in complex URLs (e.g., specific Navigraph or SimBrief links) could cause the default browser to fail to launch."
     ]
   }
 }
