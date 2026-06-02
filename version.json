@@ -1,36 +1,31 @@
 {
-  "version": "1.2.8",
+  "version": "1.3.0",
   "download": "https://flightsim.to/addon/104570/environment-launcher",
   "changelog": [
-    "NEW: Global Process Monitoring Toggle — Added a per-profile master switch to enable or disable the 'Close on Exit' behavior for all companion apps at once. This provides faster control over resource recovery without needing to edit individual application settings.",
-    "NEW: Extended Shortcut Arguments — Desktop shortcuts now support enhanced launch parameters, ensuring even better reliability when triggering profiles through external dashboards or Stream Decks.",
-    "CHANGED: Optimized Path Recovery Algorithm — Refined the intelligent path detection for Microsoft Store and Xbox applications. The system now performs a deeper, faster scan to self-correct profiles if game files are moved or updated by the Windows Store.",
-    "CHANGED: UI Rendering Refinement — Improved the loading speed of the profile list when using high-resolution custom icons (PNG/ICO). Navigating through complex setups is now even snappier.",
-    "CHANGED: Core Efficiency Tuning — Further reduced the application's idle memory footprint. The 'Zero-Impact' promise is now even leaner, leaving more overhead for high-demand simulators.",
-    "CHANGED: Refined Elevation Workflow — Updated the single-UAC prompt logic to prevent focus-loss issues on certain Windows 11 builds, ensuring a seamless 'one-click' experience.",
-    "FIX: Icon Transparency Glitch — Fixed a minor rendering bug that caused artifacts on certain non-standard 256x256 .ICO files.",
-    "FIX: URL String Parsing — Corrected an issue where special characters in complex URLs (e.g., specific Navigraph or SimBrief links) could cause the default browser to fail to launch."
+    "CHANGED: Refactored core code to minimize false positives in Windows Defender, reducing safe software warnings caused by the application's process-handling capabilities.",
+    "CHANGED: Updated internal software libraries to their latest versions to ensure optimal performance and security.",
+    "CHANGED: Implemented minor UI adjustments and visual refinements in several areas of the application to enhance overall interface consistency.",
+    "NEW: Integrated a Terms of Service agreement window that appears upon the first launch of the application.",
+    "NEW: Introduced a dedicated button in the user interface referencing the new PRO version, which premieres alongside this 1.3.0 release."
   ],
   "editions": {
     "free": {
-      "version": "1.2.8",
+      "version": "1.3.0",
       "download": "https://flightsim.to/addon/104570/environment-launcher"
     },
     "pro": {
-      "version": "1.2.8",
-      "download": "https://www.kscodelabs.com/api/download/launcher"
+      "version": "1.3.0",
+      "download": "https://www.kscodelabs.com/api/download/launcher",
+      "changelog": []
     }
   },
   "releases": {
-    "1.2.8": [
-      "NEW: Global Process Monitoring Toggle — Added a per-profile master switch to enable or disable the 'Close on Exit' behavior for all companion apps at once. This provides faster control over resource recovery without needing to edit individual application settings.",
-      "NEW: Extended Shortcut Arguments — Desktop shortcuts now support enhanced launch parameters, ensuring even better reliability when triggering profiles through external dashboards or Stream Decks.",
-      "CHANGED: Optimized Path Recovery Algorithm — Refined the intelligent path detection for Microsoft Store and Xbox applications. The system now performs a deeper, faster scan to self-correct profiles if game files are moved or updated by the Windows Store.",
-      "CHANGED: UI Rendering Refinement — Improved the loading speed of the profile list when using high-resolution custom icons (PNG/ICO). Navigating through complex setups is now even snappier.",
-      "CHANGED: Core Efficiency Tuning — Further reduced the application's idle memory footprint. The 'Zero-Impact' promise is now even leaner, leaving more overhead for high-demand simulators.",
-      "CHANGED: Refined Elevation Workflow — Updated the single-UAC prompt logic to prevent focus-loss issues on certain Windows 11 builds, ensuring a seamless 'one-click' experience.",
-      "FIX: Icon Transparency Glitch — Fixed a minor rendering bug that caused artifacts on certain non-standard 256x256 .ICO files.",
-      "FIX: URL String Parsing — Corrected an issue where special characters in complex URLs (e.g., specific Navigraph or SimBrief links) could cause the default browser to fail to launch."
+    "1.3.0": [
+      "CHANGED: Refactored core code to minimize false positives in Windows Defender, reducing safe software warnings caused by the application's process-handling capabilities.",
+      "CHANGED: Updated internal software libraries to their latest versions to ensure optimal performance and security.",
+      "CHANGED: Implemented minor UI adjustments and visual refinements in several areas of the application to enhance overall interface consistency.",
+      "NEW: Integrated a Terms of Service agreement window that appears upon the first launch of the application.",
+      "NEW: Introduced a dedicated button in the user interface referencing the new PRO version, which premieres alongside this 1.3.0 release."
     ]
   }
 }
