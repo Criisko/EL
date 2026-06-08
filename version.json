@@ -17,7 +17,7 @@
       "version": "1.3.0.1",
       "download": "https://www.kscodelabs.com/api/download/launcher",
       "changelog": [
-        "⚠️ IMPORTANT NOTICE FOR PRO USERS: Following this update to version 1.3.0.1, please ensure that all your installed plugins are fully updated. Older plugin versions may experience compatibility issues with the core application update.",
+        "⚠️ IMPORTANT NOTICE: Following this update to version 1.3.0.1, please ensure that all your installed plugins are fully updated. Older plugin versions may experience compatibility issues with the core application update.",
         "NEW: Integrated an automated validation system for desktop profile shortcuts. If an application path changes (or when upgrading from the Free version to the PRO version), the software will automatically detect the mismatch and prompt you to update your desktop shortcuts.",
         "NEW: Added missing Discord-related translations to the application's Welcome Screen.",
         "FIXED: Resolved an issue with the rendering and functionality of the Repair paths dialog window.",
