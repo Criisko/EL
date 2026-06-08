@@ -25,7 +25,7 @@
         "CHANGED: Enhanced interface readability by updating the visual style of the profile list names, alongside the copy and delete profile buttons.",
         "CHANGED: Unified user interface elements with the Environment Comm application to ensure a cohesive ecosystem experience.",
         "CHANGED: Redesigned the Plugin Gallery interface for a cleaner look, replacing the placeholder skeleton loader with a smooth, modern loading animation.",
-        "CHANGED: Implemented over 20 minor visual refinements and UI polishes across various areas of the application to enhance overall interface consistency.",
+        "CHANGED: Implemented over 20 minor visual refinements and UI polishes across various areas of the application to enhance overall interface consistency."
       ]
     }
   },
