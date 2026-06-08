@@ -14,9 +14,19 @@
       "download": "https://flightsim.to/addon/104570/environment-launcher"
     },
     "pro": {
-      "version": "1.3.0",
+      "version": "1.3.0.1",
       "download": "https://www.kscodelabs.com/api/download/launcher",
-      "changelog": []
+      "changelog": [
+        "⚠️ IMPORTANT NOTICE FOR PRO USERS: Following this update to version 1.3.0.1, please ensure that all your installed plugins are fully updated. Older plugin versions may experience compatibility issues with the core application update.",
+        "NEW: Integrated an automated validation system for desktop profile shortcuts. If an application path changes (or when upgrading from the Free version to the PRO version), the software will automatically detect the mismatch and prompt you to update your desktop shortcuts.",
+        "NEW: Added missing Discord-related translations to the application's Welcome Screen.",
+        "FIXED: Resolved an issue with the rendering and functionality of the Repair paths dialog window.",
+        "FIXED: Improved the application installer; users no longer need to manually uninstall the previous version of the software before upgrading.",
+        "CHANGED: Enhanced interface readability by updating the visual style of the profile list names, alongside the copy and delete profile buttons.",
+        "CHANGED: Unified user interface elements with the Environment Comm application to ensure a cohesive ecosystem experience.",
+        "CHANGED: Redesigned the Plugin Gallery interface for a cleaner look, replacing the placeholder skeleton loader with a smooth, modern loading animation.",
+        "CHANGED: Implemented over 20 minor visual refinements and UI polishes across various areas of the application to enhance overall interface consistency.",
+      ]
     }
   },
   "releases": {
