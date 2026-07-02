@@ -1,36 +1,40 @@
 {
-  "version": "1.3.0",
+  "version": "1.3.0.3",
   "download": "https://flightsim.to/addon/104570/environment-launcher",
   "changelog": [
-    "CHANGED: Refactored core code to minimize false positives in Windows Defender, reducing safe software warnings caused by the application's process-handling capabilities.",
-    "CHANGED: Updated internal software libraries to their latest versions to ensure optimal performance and security.",
-    "CHANGED: Implemented minor UI adjustments and visual refinements in several areas of the application to enhance overall interface consistency.",
-    "NEW: Integrated a Terms of Service agreement window that appears upon the first launch of the application.",
-    "NEW: Introduced a dedicated button in the user interface referencing the new PRO version, which premieres alongside this 1.3.0 release."
+    "NEW: Integrated a dynamic promotion detection system that automatically displays current special offers and discounts directly on the Pro version reference button.",
+    "CHANGED: Overhauled the application installer to support seamless updates; installing future versions no longer requires manually uninstalling the previous release.",
+    "CHANGED: Migrated the update checker framework from GitHub to the official website API; future update alerts will now direct users to a central download page on the official website, allowing them to choose their preferred distribution platform.",
+    "CHANGED: Implemented minor UI adjustments and visual refinements across several areas of the application to enhance interface consistency.",
+    "FIXED: Corrected and improved localization strings across all supported languages for better accuracy."
   ],
   "editions": {
     "free": {
-      "version": "1.3.0",
+      "version": "1.3.0.3",
       "download": "https://flightsim.to/addon/104570/environment-launcher"
     },
     "pro": {
-      "version": "1.3.0.1",
+      "version": "1.3.0.3",
       "download": "https://www.kscodelabs.com/api/download/launcher",
       "changelog": [
-        "⚠️ IMPORTANT NOTICE: Following this update to version 1.3.0.1, please ensure that all your installed plugins are fully updated. Older plugin versions may experience compatibility issues with the core application update.",
-        "NEW: Integrated an automated validation system for desktop profile shortcuts. If an application path changes (or when upgrading from the Free version to the PRO version), the software will automatically detect the mismatch and prompt you to update your desktop shortcuts.",
-        "NEW: Added missing Discord-related translations to the application's Welcome Screen.",
-        "FIXED: Resolved an issue with the rendering and functionality of the Repair paths dialog window.",
-        "FIXED: Improved the application installer; users no longer need to manually uninstall the previous version of the software before upgrading.",
-        "CHANGED: Enhanced interface readability by updating the visual style of the profile list names, alongside the copy and delete profile buttons.",
-        "CHANGED: Unified user interface elements with the Environment Comm application to ensure a cohesive ecosystem experience.",
-        "CHANGED: Redesigned the Plugin Gallery interface for a cleaner look, replacing the placeholder skeleton loader with a smooth, modern loading animation.",
-        "CHANGED: Implemented over 20 minor visual refinements and UI polishes across various areas of the application to enhance overall interface consistency."
+        "NEW: Introduced a plugin compatibility detection system that automatically verifies if installed plug-ins are fully compatible with the current application version.",
+        "CHANGED: Overhauled the application installer to support seamless updates; installing future versions no longer requires manually uninstalling the previous release.",
+        "CHANGED: Migrated the update checker framework from GitHub to the official website API.",
+        "CHANGED: Implemented minor UI adjustments and visual refinements across several areas of the application to enhance interface consistency.",
+        "CHANGED: Updated the plugin gallery behavior to display a mandatory notification reminding users to restart the application after installing or updating any plug-ins.",
+        "FIXED: Corrected and improved localization strings across all supported languages for better accuracy."
       ]
     }
   },
   "releases": {
-    "1.3.0": [
+    "1.3.0.3": [
+      "NEW: Integrated a dynamic promotion detection system that automatically displays current special offers and discounts directly on the Pro version reference button.",
+      "CHANGED: Overhauled the application installer to support seamless updates; installing future versions no longer requires manually uninstalling the previous release.",
+      "CHANGED: Migrated the update checker framework from GitHub to the official website API; future update alerts will now direct users to a central download page on the official website, allowing them to choose their preferred distribution platform.",
+      "CHANGED: Implemented minor UI adjustments and visual refinements across several areas of the application to enhance interface consistency.",
+      "FIXED: Corrected and improved localization strings across all supported languages for better accuracy."
+    ],
+    "1.3.0.3": [
       "CHANGED: Refactored core code to minimize false positives in Windows Defender, reducing safe software warnings caused by the application's process-handling capabilities.",
       "CHANGED: Updated internal software libraries to their latest versions to ensure optimal performance and security.",
       "CHANGED: Implemented minor UI adjustments and visual refinements in several areas of the application to enhance overall interface consistency.",
