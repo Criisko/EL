@@ -1,5 +1,5 @@
 {
-  "version": "1.3.0.3",
+  "version": "1.3.0.4",
   "download": "https://flightsim.to/addon/104570/environment-launcher",
   "changelog": [
     "NEW: Integrated a dynamic promotion detection system that automatically displays current special offers and discounts directly on the Pro version reference button.",
@@ -10,11 +10,11 @@
   ],
   "editions": {
     "free": {
-      "version": "1.3.0.3",
+      "version": "1.3.0.4",
       "download": "https://flightsim.to/addon/104570/environment-launcher"
     },
     "pro": {
-      "version": "1.3.0.3",
+      "version": "1.3.0.4",
       "download": "https://www.kscodelabs.com/api/download/launcher",
       "changelog": [
         "NEW: Introduced a plugin compatibility detection system that automatically verifies if installed plug-ins are fully compatible with the current application version.",
@@ -27,14 +27,14 @@
     }
   },
   "releases": {
-    "1.3.0.3": [
+    "1.3.0.4": [
       "NEW: Integrated a dynamic promotion detection system that automatically displays current special offers and discounts directly on the Pro version reference button.",
       "CHANGED: Overhauled the application installer to support seamless updates; installing future versions no longer requires manually uninstalling the previous release.",
       "CHANGED: Migrated the update checker framework from GitHub to the official website API; future update alerts will now direct users to a central download page on the official website, allowing them to choose their preferred distribution platform.",
       "CHANGED: Implemented minor UI adjustments and visual refinements across several areas of the application to enhance interface consistency.",
       "FIXED: Corrected and improved localization strings across all supported languages for better accuracy."
     ],
-    "1.3.0.3": [
+    "1.3.0.4": [
       "CHANGED: Refactored core code to minimize false positives in Windows Defender, reducing safe software warnings caused by the application's process-handling capabilities.",
       "CHANGED: Updated internal software libraries to their latest versions to ensure optimal performance and security.",
       "CHANGED: Implemented minor UI adjustments and visual refinements in several areas of the application to enhance overall interface consistency.",
